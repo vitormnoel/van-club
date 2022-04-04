@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+      
+      <title>Van Club</title>
+    
+      <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+      <link rel="stylesheet" type="text/css" href="./assets/css/header.css">
+      <link rel="stylesheet" type="text/css" href="./assets/css/membership.css">
+      <link rel="stylesheet" type="text/css" href="./assets/css/events.css">
+      <link rel="stylesheet" type="text/css" href="./assets/css/contact.css">
+      <link rel="stylesheet" type="text/css" href="./assets/css/location.css">
+      <link rel="stylesheet" type="text/css" href="./assets/css/footer.css">
+      <link rel="stylesheet" type="text/css" href="./assets/css/buton.css">
+  </head>
+  <body>
+    <header class="top">
+      
+
+      <nav class="menu container">
+        <h1 class="logo"><a href="#"><img src="./assets/img/logo.png" alt="Logo VANC"></a></h1>
+        <ul class="menu__bar">
+          <li class="menu__bar___option"><a href="#">membership</a></li>
+          <li class="menu__bar___option"><a href="#">events</a></li>
+          <li class="menu__bar___option"><a href="#">contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="banner__text container">
+        <h2>We're back!</h2>
+        <p class="text" id="text__1">Welcoming members for dining,</p>
+ 
+        <p class="text" id="text__2">drinks, coworking, and party!</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="membership container">
+        <h2>Membership</h2>
+        <p id="text">
+          Our mission is to provide an outstanding Club experience by delivering
+          a wide range of athletic, recreational, social and cultural activities
+          for all ages, enhancing the lives of its Members. Once you have made
+          the decision to <a href="#">become a member</a> and you have followed
+          through with your financial obligations, you will be eligible to get
+          your member card.
+        </p>
+        <section class="membership__options">
+          <div class="membership__options__card">
+            <img src="./assets/img/drinks-1.jpg" alt="Drinks" />
+            <p class="membership__price">10% OFF</p>
+            <p class="membership__description">Bar</p>
+            <button class="button membership__button" type="button" value="Submit">sign up</button>
+          </div>
+          <div class="membership__options__card">
+            <img src="./assets/img/live-music.jpg" alt="Singer singing" />
+            <p class="membership__price">15% OFF</p>
+            <p class="membership__description">Live Music</p>
+            <button class="button membership__button" type="button" value="Submit">sign up</button>
+          </div>
+          <div class="membership__options__card">
+            <img src="./assets/img/drinks.jpg" alt="A guy drinking" />
+            <p class="membership__price">20% OFF</p>
+            <p class="membership__description">Bar + Music</p>
+            <button class="button membership__button" type="button" value="Submit">sign up</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="upcoming-events">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <section class="upcoming-events__options">
+              <div class="upcoming-events__options___card">
+                <h3>Live Music</h3>
+                <p>Listen to a sampling of artists featured at the Club;</p>
+                <h4>04.01</h4>
+                <button class="button upcoming__button" type="button" value="Submit">buy</button>
+              </div>
+              <div class="upcoming-events__options___card">
+                <h3>On Ration</h3>
+                <p>Sync Up & Stream playlists from our favorite djs;</p>
+                <h4>04.05</h4>
+                <button class="button upcoming__button" type="button" value="Submit">buy</button>
+              </div>
+              <div class="upcoming-events__options___card">
+                <h3>Captain's Bar</h3>
+                <p>Enjoy to Live Music in the Captain’s Bar;</p>
+                <h4>04.08</h4>
+                <button class="button upcoming__button" type="button" value="Submit">buy</button>
+              </div>
+              <div class="upcoming-events__options___card">
+                <h3>Secret Party</h3>
+                <p>Come to our “secret” party and have fun;</p>
+                <h4>04.10</h4>
+                <button class="button upcoming__button" type="button" value="Submit">buy</button>
+              </div>
+              <div class="upcoming-events__options___card">
+                <h3>Open Bar</h3>
+                <p>Invite one friend, and drink as much as you can;</p>
+                <h4>04.12</h4>
+                <button class="button upcoming__button" type="button" value="Submit">buy</button>
+              </div>
+            </section>
+        </div>
+      </section>
+
+      <section class="contact container">
+        <h2>Contact</h2>
+        <p>
+          Send us a message! If you have any questions about the place or our
+          services feel free to ask.
+        </p>
+
+        <div class="contact__comp">
+          <img src="./assets/img/form.jpg" alt="email sign" />
+          <div class="contact__comp___form">
+            <form action="/" method="get" id="form1">
+              <label for="fmes">Name</label>
+              <input type="text" id="fname" name="fname">
+
+              <label for="femail">Email</label>
+              <input type="email" id="femail" name="femail" placeholder="exemple@gmail.com">
+
+              <label for="fmes">Message</label>
+              <textarea name="fmes" id="fmes" placeholder="Write something..."></textarea>
+            </form>
+
+            <button class="button membership__button" form="form1" type="button" value="Submit">send</button>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="location">
+        <div class="container">
+          <h2>Where to find us</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5159.295966662921!2d-123.10787046166517!3d49.275544987993186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548671538c003fe7%3A0x342816ede3e5b7a3!2sPlaza%20of%20Nations%20Marina%20-%20Lot%20%23499!5e0!3m2!1sen!2sca!4v1648861582614!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__options container">
+          <div>
+            <address>550 E 6th Ave</address>
+            <address>Vancouver, BC V5T 1K9</address>
+            <p id="phone">+1 778 718-1234</p>
+        </div>
+        <div>
+            <ul>
+                <li class="menu__option___footer"><a href="#">membership</a></li>
+                <li class="menu__option___footer"><a href="#">events</a></li>
+                <li class="menu__option___footer"><a href="#">contact</a></li>
+              </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">privacy police</a></li>
+                <li><a href="#">Information</a></li>
+            </ul>
+        </div>
+        </section>
+
+        <div class="social-media">
+          <a href="#" target="_blanck"><img src="./assets/img/instagram.png" alt="instagram logo"></a>
+          <a href="#" target="_blanck"><img src="./assets/img/twitter.png" alt="twitter logo"></a>
+          <a href="#" target="_blanck"><img src="./assets/img/facebook.png" alt="facebook logo"></a>
+          <a href="#" target="_blanck"><img src="./assets/img/linkedin.png" alt="linkedin logo"></a>
+        </div>
+
+        <p id="copy">&#169 Vitor Manoel | 2022</p>
+    </footer>
+  </body>
+</html>

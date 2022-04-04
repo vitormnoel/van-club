@@ -1,0 +1,47 @@
+.contact p {
+    padding: 0.8rem 0px;
+}
+
+.contact__comp {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact__comp img {
+    border-radius: 2%;
+    width: 24rem;
+}
+
+.contact__comp___form input, textarea{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(121, 121, 121, 0.712);
+    margin-bottom: 1rem;
+}
+
+.contact__comp___form #fmes {
+    height: 150px;
+}
+
+.contact__comp___form label {
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact__comp{
+        grid-template-columns: 1fr;
+    }
+    
+    .contact__comp img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .contact__comp {
+        padding: 0 0 1rem 0;
+    }
+}

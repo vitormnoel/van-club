@@ -1,0 +1,60 @@
+.upcoming-events{
+    background-color: black;
+    color: white;
+    padding: 1rem 0 3rem 0;
+}
+
+.upcoming-events__options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.upcoming-events__options___card {
+    margin: 3rem 0;
+    width: 12rem;
+}
+
+.upcoming-events__options___card h3 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #707070;
+    padding-bottom: .2rem;
+}
+
+.upcoming-events__options___card p {
+    padding: .6rem 0 1.4rem 0;
+    height: 6rem;
+    font-weight: lighter;
+    color: rgb(189, 189, 189);
+}
+
+.upcoming-events__options___card h4 {
+    font-size: 1.6rem;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .upcoming-events__options {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .upcoming-events__options___card {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .upcoming-events__options {
+        grid-template-columns: 1fr;
+    }
+
+    .upcoming-events__options___card {
+        margin-bottom: 0;
+    }
+
+    .upcoming-events__options___card p {
+        height: auto;
+    }
+}

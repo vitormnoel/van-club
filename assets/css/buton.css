@@ -1,0 +1,27 @@
+.button {
+    padding: 8px 32px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #6500BC;
+    text-transform: uppercase;
+    font-weight:800;
+    box-shadow: rgba(148, 148, 148, 0.5) 4px 4px 4px;
+}
+
+.membership__button {
+   margin-top: 1rem;
+}
+
+.upcoming__button {
+   margin-top: .5rem;
+   box-shadow: black 4px 4px 4px;
+}
+
+.button:hover {
+    background-color: #b36fee;
+    transition: 1s;
+}

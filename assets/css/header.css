@@ -1,0 +1,107 @@
+.top {
+    padding-top: 1.5rem;
+    height: 45rem;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: black;
+}
+
+.menu {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    padding-right: 50%;
+    color: white;
+    font-weight: bolder;
+}
+
+.logo img {
+    width: 3rem;
+}
+
+.menu__bar___option {
+    display: inline-block;
+    padding-right: 4rem;
+}
+
+.menu__bar___option:last-child {
+    padding-right: 0px;
+}
+
+.menu__bar___option:last-child {
+    padding-right: 0%;
+}
+
+.menu__bar___option a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.banner__text {
+    padding-top: 25rem;
+}
+
+.top h2 {
+    font-size: 5rem;
+    color: white;
+}
+
+.top .text {
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.top #text__1 {
+    width: 17.5rem;
+}
+
+.top #text__2 {
+    margin-top: 0.2rem;
+    width: 16rem;
+}
+
+.menu__bar___option a:hover {
+    border-bottom: 3px solid #6500BC;
+}
+
+@media only screen and (max-width: 1200px) {
+    .menu {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .logo {
+        padding: 0 0 2rem;
+    }
+
+    .banner__text {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .menu__bar___option {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin-top: 1rem;
+    }
+
+    .top {
+        background-color: black;
+        background-image: none;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+}
